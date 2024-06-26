@@ -1,0 +1,298 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào",
+        ".",
+        "chao",
+        "Chào shop",
+        "Này",
+        "Hi",
+        "Hello",
+        "Alo",
+        "chao",
+        "Chào bạn",
+        "Chào",
+        "Hey"
+      ],
+      "responses": [
+        "Kem xin chào bạn. Kem có thể giúp gì cho bạn.",
+        "Chào bạn! Kem có thể hỗ trợ gì cho bạn?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Hẹn gặp lại",
+        "Tạm biệt",
+        "Bye",
+        "Rất vui được trò chuyện với bạn, tạm biệt",
+        "Chào tạm biệt",
+        "Hẹn gặp lại lần sau",
+        "Tạm biệt bạn",
+        "Goodbye",
+        "See you",
+        "Catch you later",
+        "Talk to you later",
+        "Gặp lại sau nhé",
+        "Tạm biệt nhé"
+      ],
+      "responses": [
+        "Tạm biệt! Cảm ơn bạn hẹn gặp lại.",
+        "Chào tạm biệt! Rất vui được trò chuyện với bạn.",
+        "Goodbye! Hẹn gặp lại lần sau.",
+        "Tạm biệt! Chúc bạn một ngày tốt lành."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Cảm ơn",
+        "Cảm ơn shop ạ",
+        "Tuyệt vời, cảm ơn",
+        "Cảm ơn vì đã giúp tôi",
+        "Cảm ơn nhiều",
+        "Cảm ơn bạn",
+        "Cảm ơn rất nhiều",
+        "Cảm ơn nhé",
+        "Cám ơn",
+        "Cám ơn nhiều",
+        "Cảm ơn vì sự giúp đỡ",
+        "Rất cảm ơn",
+        "Thank you",
+        "Thank you very much",
+        "Thanks a lot",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "Cảm ơn bạn! Hẹn sớm gặp lại bạn",
+        "Rất vui được giúp đỡ bạn! Hẹn gặp lại",
+        "Cảm ơn bạn đã tin tưởng chúng tôi!",
+        "Cảm ơn bạn! Chúc bạn một ngày tốt lành"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+      ],
+      "responses": [
+        "Cần hỗ trợ gì cứ nhắn Kem nhé!! "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "Shop có thể giúp gì?",
+        "Bạn có thể giúp tôi cái gì?",
+        "Hỗ trợ gì được cung cấp"
+      ],
+      "responses": [
+        "Kem có thể giúp bạn tư vấn và giới thiệu các sản phẩm mà shop có ạ!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "product",
+      "patterns": [
+        "Giới thiệu cho tôi một số sản phẩm hot của bên mình",
+        "Các sản phẩm hottrend",
+        "Các sản phẩm bán nhiều nhất",
+        "Các mẫu balo bán nhiều",
+        "Các mẫu balo đẹp",
+        "bán chạy",
+        "đắt hàng",
+        "sản phẩm hot",
+        "sản phẩm nổi bật",
+        "sản phẩm phổ biến",
+        "sản phẩm yêu thích",
+        "sản phẩm được ưa chuộng",
+        "sản phẩm nào hot",
+        "sản phẩm nào bán chạy",
+        "mẫu balo nào đẹp",
+        "mẫu balo nào hot",
+        "mẫu balo nào bán chạy",
+        "mẫu nào đang hot"
+      ],
+      "responses": [
+        "$SANPHAM$_Kem xin gợi ý với bạn sản phẩm sau: "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "instruct",
+      "patterns": [
+        "Làm sao để mua hàng bên cửa hàng của mình",
+        "Cách mua",
+        "Mua hàng như thế nào",
+        "Làm sao để đặt hàng",
+        "Hướng dẫn mua hàng",
+        "Làm thế nào để mua hàng",
+        "Cách đặt hàng",
+        "Đặt hàng như thế nào",
+        "Hướng dẫn đặt hàng",
+        "Làm thế nào để đặt hàng"
+      ],
+      "responses": [
+        "Kem xin hướng dẫn bạn cách đặt hàng: \nBước 1: Bạn hãy chọn sản phẩm muốn mua. Bạn có thể mua trực tiếp bằng cách chọn Mua ngay, hoặc thêm sản phẩm đó vào giỏ hàng.\nBước 2: Nếu bạn thêm sản phẩm vào giỏ hàng thì bạn hãy vào giỏ hàng, chọn sản phẩm và thanh toán.\nBước 3: Bạn nhớ chọn địa chỉ, kiểm tra lại đơn hàng và bấm đặt hàng.",
+        "Để đặt hàng bên Kem, bạn có thể làm theo các bước sau: \n1. Chọn sản phẩm bạn muốn mua và thêm vào giỏ hàng.\n2. Kiểm tra giỏ hàng và chọn thanh toán.\n3. Điền thông tin địa chỉ, kiểm tra đơn hàng và bấm đặt hàng.",
+        "Bạn có thể mua hàng bằng cách: \n1. Chọn sản phẩm và thêm vào giỏ hàng hoặc mua ngay.\n2. Vào giỏ hàng để chọn sản phẩm và thanh toán.\n3. Chọn địa chỉ, kiểm tra đơn hàng và bấm đặt hàng."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "brand",
+      "patterns": [
+        "thương hiệu",
+        "hãng",
+        "nhãn hàng",
+        "brand",
+        "local",
+        "có những thương hiệu nào",
+        "có những hãng nào",
+        "có nhãn hàng nào",
+        "thương hiệu nổi tiếng",
+        "các hãng có mặt",
+        "các nhãn hàng có mặt",
+        "hãng nào tốt",
+        "thương hiệu nào tốt",
+        "brand nào nổi bật",
+        "local brand"
+      ],
+      "responses": [
+        "$THUONGHIEU$_Kem xin gợi ý với bạn các thương hiệu sau: "
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "ship",
+      "patterns": [
+        "Phí vận chuyển",
+        "phí giao hàng",
+        "Giao hàng",
+        "phí ship",
+        "chi phí vận chuyển",
+        "phí giao hàng là bao nhiêu",
+        "cước phí vận chuyển",
+        "chi phí giao hàng",
+        "ship hàng",
+        "phí ship là bao nhiêu",
+        "bao nhiêu tiền ship",
+        "giao hàng tốn bao nhiêu",
+        "vận chuyển có mất phí không"
+      ],
+      "responses": [
+        "Phí vận chuyển bên Kem tùy theo số lượng mặt hàng bạn mua",
+        "Phí ship sẽ được hiển thị trong đơn hàng của bạn"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "morning",
+      "patterns": [
+        "morning",
+        "buổi sáng",
+        "buoi sang",
+        "ngày mới",
+        "ngay moi",
+        "chào buổi sáng",
+        "chào sáng",
+        "hello buổi sáng",
+        "hi buổi sáng",
+        "sáng vui vẻ",
+        "buổi sáng tốt lành",
+        "buổi sáng thế nào",
+        "sáng thế nào"
+      ],
+      "responses": [
+        "Chúc bạn ngày mới vui vẻ",
+        "Chào buổi sáng, chúc bạn có một ngày tuyệt vời",
+        "Buổi sáng tốt lành, có gì tôi có thể giúp bạn không?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "afternoon",
+      "patterns": [
+        "afternoon",
+        "tối",
+        "buổi tối",
+        "ban đêm",
+        "chào buổi tối",
+        "chào tối",
+        "hello buổi tối",
+        "hi buổi tối",
+        "tối vui vẻ",
+        "buổi tối tốt lành",
+        "buổi tối thế nào",
+        "tối thế nào"
+      ],
+      "responses": [
+        "Chúc bạn buổi tối vui vẻ",
+        "Chào buổi tối, hy vọng bạn có một đêm tuyệt vời",
+        "Buổi tối vui vẻ, có gì tôi có thể giúp bạn không?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "discount",
+      "patterns": [
+        "giảm giá",
+        "mã giảm",
+        "discount",
+        "giam gia",
+        "giam",
+        "có khuyến mãi không",
+        "khuyến mãi",
+        "voucher",
+        "coupon",
+        "mã khuyến mãi",
+        "mã giảm giá",
+        "có ưu đãi gì không",
+        "ưu đãi",
+        "có deal gì không",
+        "deal",
+        "promo code",
+        "code giảm giá",
+        "phiếu giảm giá",
+        "giảm bao nhiêu",
+        "có mã giảm giá không",
+        "có sale không",
+        "đang sale gì"
+      ],
+      "responses": [
+        "Bên Kem hiện chưa có ưu đãi gì"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
